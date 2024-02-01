@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #profile-header {
+  text-align: center;
+} */
+
+#profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 6px solid #fff;
+  margin-top: -80px;
+  /* display: block;
+  margin-left: 400px;
+  margin-right: auto; */
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#cover-photo {
+  width: 100%;
+  max-height: 500px;
+  max-width: 1050px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#user-info {
+  display: flex;
+}
+
+/* h1 {
+  text-align: center;
+  margin-top: -80px;
+} */
+
+.follow_btn {
+  cursor: pointer;
+  margin: 15px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: #4267b2;
+  border: none;
+  border-radius: 5px;
+}
+
+.msg_btn {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(239, 229, 229);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.drop_btn {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(239, 229, 229);
+  /* font-size: 25px; */
+  margin: 0 10px;
+}
